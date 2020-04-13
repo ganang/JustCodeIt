@@ -8,26 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		A46436F2244043EE00B025CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46436F1244043EE00B025CF /* AppDelegate.swift */; };
-		A46436F4244043EE00B025CF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A46436F3244043EE00B025CF /* GameScene.sks */; };
-		A46436F6244043EE00B025CF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A46436F5244043EE00B025CF /* Actions.sks */; };
 		A46436F8244043EE00B025CF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46436F7244043EE00B025CF /* GameScene.swift */; };
 		A46436FA244043EE00B025CF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46436F9244043EE00B025CF /* GameViewController.swift */; };
 		A46436FD244043EE00B025CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46436FB244043EE00B025CF /* Main.storyboard */; };
 		A46436FF244043EF00B025CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46436FE244043EF00B025CF /* Assets.xcassets */; };
 		A4643702244043EF00B025CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4643700244043EF00B025CF /* LaunchScreen.storyboard */; };
+		A464370C24405E8D00B025CF /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A464370B24405E8D00B025CF /* MenuScene.sks */; };
+		A464370E2440624700B025CF /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464370D2440624700B025CF /* MenuScene.swift */; };
+		A464371624406AB800B025CF /* VariablesGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464371524406AB800B025CF /* VariablesGameScene.swift */; };
+		A464371A244071CB00B025CF /* snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4643719244071CB00B025CF /* snow.sks */; };
+		A464371C244072FA00B025CF /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = A464371B244072FA00B025CF /* spark.sks */; };
+		A464371F244077F400B025CF /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = A464371D244077F400B025CF /* rain.sks */; };
+		A4643720244077F400B025CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A464371E244077F400B025CF /* Assets.xcassets */; };
+		A464372224407ABC00B025CF /* bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = A464372124407ABC00B025CF /* bokeh.sks */; };
+		A4643724244085E800B025CF /* VariablesGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4643723244085E800B025CF /* VariablesGameScene.sks */; };
+		A4D8105A2441767700B8C7D1 /* marioCoin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D810592441767700B8C7D1 /* marioCoin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A46436EE244043EE00B025CF /* Just Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46436F1244043EE00B025CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A46436F3244043EE00B025CF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A46436F5244043EE00B025CF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A46436F7244043EE00B025CF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A46436F9244043EE00B025CF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A46436FC244043EE00B025CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A46436FE244043EF00B025CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4643701244043EF00B025CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4643703244043EF00B025CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A464370B24405E8D00B025CF /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		A464370D2440624700B025CF /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		A464371524406AB800B025CF /* VariablesGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesGameScene.swift; sourceTree = "<group>"; };
+		A4643719244071CB00B025CF /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
+		A464371B244072FA00B025CF /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
+		A464371D244077F400B025CF /* rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rain.sks; sourceTree = "<group>"; };
+		A464371E244077F400B025CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A464372124407ABC00B025CF /* bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = bokeh.sks; sourceTree = "<group>"; };
+		A4643723244085E800B025CF /* VariablesGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VariablesGameScene.sks; sourceTree = "<group>"; };
+		A4D810592441767700B8C7D1 /* marioCoin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marioCoin.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +76,57 @@
 		A46436F0244043EE00B025CF /* Just Code */ = {
 			isa = PBXGroup;
 			children = (
+				A464371224406A7A00B025CF /* Scenes */,
+				A464370F2440627200B025CF /* Emitters */,
 				A46436F1244043EE00B025CF /* AppDelegate.swift */,
-				A46436F3244043EE00B025CF /* GameScene.sks */,
-				A46436F5244043EE00B025CF /* Actions.sks */,
-				A46436F7244043EE00B025CF /* GameScene.swift */,
 				A46436F9244043EE00B025CF /* GameViewController.swift */,
 				A46436FB244043EE00B025CF /* Main.storyboard */,
+				A4D810592441767700B8C7D1 /* marioCoin.mp3 */,
 				A46436FE244043EF00B025CF /* Assets.xcassets */,
 				A4643700244043EF00B025CF /* LaunchScreen.storyboard */,
 				A4643703244043EF00B025CF /* Info.plist */,
 			);
 			path = "Just Code";
+			sourceTree = "<group>";
+		};
+		A464370F2440627200B025CF /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				A464372124407ABC00B025CF /* bokeh.sks */,
+				A464371B244072FA00B025CF /* spark.sks */,
+				A4643719244071CB00B025CF /* snow.sks */,
+				A464371D244077F400B025CF /* rain.sks */,
+				A464371E244077F400B025CF /* Assets.xcassets */,
+			);
+			path = Emitters;
+			sourceTree = "<group>";
+		};
+		A464371224406A7A00B025CF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A46437182440711200B025CF /* VariablesGame */,
+				A4643717244070FF00B025CF /* Menu */,
+				A46436F7244043EE00B025CF /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A4643717244070FF00B025CF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A464370B24405E8D00B025CF /* MenuScene.sks */,
+				A464370D2440624700B025CF /* MenuScene.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A46437182440711200B025CF /* VariablesGame */ = {
+			isa = PBXGroup;
+			children = (
+				A464371524406AB800B025CF /* VariablesGameScene.swift */,
+				A4643723244085E800B025CF /* VariablesGameScene.sks */,
+			);
+			path = VariablesGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +188,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46436FD244043EE00B025CF /* Main.storyboard in Resources */,
-				A46436F4244043EE00B025CF /* GameScene.sks in Resources */,
+				A464371C244072FA00B025CF /* spark.sks in Resources */,
+				A4D8105A2441767700B8C7D1 /* marioCoin.mp3 in Resources */,
+				A464372224407ABC00B025CF /* bokeh.sks in Resources */,
 				A46436FF244043EF00B025CF /* Assets.xcassets in Resources */,
+				A464371A244071CB00B025CF /* snow.sks in Resources */,
 				A4643702244043EF00B025CF /* LaunchScreen.storyboard in Resources */,
-				A46436F6244043EE00B025CF /* Actions.sks in Resources */,
+				A464371F244077F400B025CF /* rain.sks in Resources */,
+				A4643720244077F400B025CF /* Assets.xcassets in Resources */,
+				A4643724244085E800B025CF /* VariablesGameScene.sks in Resources */,
+				A464370C24405E8D00B025CF /* MenuScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46436F8244043EE00B025CF /* GameScene.swift in Sources */,
+				A464370E2440624700B025CF /* MenuScene.swift in Sources */,
 				A46436FA244043EE00B025CF /* GameViewController.swift in Sources */,
 				A46436F2244043EE00B025CF /* AppDelegate.swift in Sources */,
+				A464371624406AB800B025CF /* VariablesGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
