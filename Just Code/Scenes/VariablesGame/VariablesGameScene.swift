@@ -116,7 +116,7 @@ class VariablesGameScene: SKScene, SKPhysicsContactDelegate, UITableViewDelegate
         playButton.size = CGSize(width: 140, height: 40)
         self.addChild(playButton)
         
-        player = SKSpriteNode(imageNamed: "rodent")
+        player = SKSpriteNode(imageNamed: "child")
         player.position = CGPoint(x: width / 2, y: height/4 + playButton.size.height + player.size.height + 30)
         player.physicsBody = SKPhysicsBody(rectangleOf: player.size)
         player.physicsBody?.isDynamic = true
