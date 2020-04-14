@@ -32,10 +32,19 @@ class MenuScene: SKScene {
             
             if nodesArray.first?.name == "variablesButton" {
                 let transition = SKTransition.flipVertical(withDuration: 0.5)
-                let variablesGameScene = VariablesGameScene(size: frame.size)
+//                let variablesGameScene = VariablesGameScene(size: frame.size)
+//                let introductionVariablesGameScene = IntroductionVariablesGameScene(size: frame.size)
                 
-                self.view?.presentScene(variablesGameScene, transition: transition)
+                let scene = IntroductionVariablesGameScene(fileNamed: "IntroductionVariablesGameScene")
+                    // Set the scale mode to scale to fit the window
+                scene?.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                self.view?.presentScene(scene!, transition: transition)
+            
+                
             }
+//            self.view?.presentScene(variablesGameScene, transition: transition)
             
         }
     }

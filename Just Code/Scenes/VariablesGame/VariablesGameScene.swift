@@ -170,7 +170,7 @@ class VariablesGameScene: SKScene, SKPhysicsContactDelegate, UITableViewDelegate
         
         // Table setup
         gameTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        gameTableView.frame = CGRect(x: width/2, y: height - 50, width: 180, height: 175)
+        gameTableView.frame = CGRect(x: width/2 + 30, y: height + 20, width: 180, height: 160)
         gameTableView.backgroundColor = .black
         gameTableView.delegate = self
         gameTableView.dataSource = self
@@ -321,7 +321,8 @@ class VariablesGameScene: SKScene, SKPhysicsContactDelegate, UITableViewDelegate
                     // Set the scale mode to scale to fit the window
                     scene.scaleMode = .aspectFill
                     self.view?.presentScene(scene)
-                    self.resetGame()
+//                    self.resetGame()
+                    self.gameTableView.removeFromSuperview()
                 }
             }
             
@@ -347,5 +348,4 @@ class VariablesGameScene: SKScene, SKPhysicsContactDelegate, UITableViewDelegate
         self.gameTableView.insertRows(at: [IndexPath.init(row: self.steps.count-1, section: 0)], with: .automatic)
         self.gameTableView.endUpdates()
     }
-
 }
